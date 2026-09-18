@@ -25,7 +25,7 @@ export function addBooking(booking) {
     return false;
   }
   saveBookings([...bookings, { ...booking, id: Date.now() }]);
-  return true;
+  return true;     
 }
 
 export function updateBooking(updated) {
